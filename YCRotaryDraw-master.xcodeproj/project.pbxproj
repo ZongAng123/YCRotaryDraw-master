@@ -15,6 +15,10 @@
 		745F202D1E5FFC2E00F44655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745F202B1E5FFC2E00F44655 /* LaunchScreen.storyboard */; };
 		745F20381E5FFC2E00F44655 /* YCRotaryDraw_masterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F20371E5FFC2E00F44655 /* YCRotaryDraw_masterTests.m */; };
 		745F20431E5FFC2E00F44655 /* YCRotaryDraw_masterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 745F20421E5FFC2E00F44655 /* YCRotaryDraw_masterUITests.m */; };
+		745F20551E5FFC4D00F44655 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 745F20511E5FFC4D00F44655 /* bg.png */; };
+		745F20561E5FFC4D00F44655 /* hander.png in Resources */ = {isa = PBXBuildFile; fileRef = 745F20521E5FFC4D00F44655 /* hander.png */; };
+		745F20571E5FFC4D00F44655 /* prise.png in Resources */ = {isa = PBXBuildFile; fileRef = 745F20531E5FFC4D00F44655 /* prise.png */; };
+		745F20581E5FFC4D00F44655 /* zhuanpan.png in Resources */ = {isa = PBXBuildFile; fileRef = 745F20541E5FFC4D00F44655 /* zhuanpan.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		745F203E1E5FFC2E00F44655 /* YCRotaryDraw-masterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YCRotaryDraw-masterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		745F20421E5FFC2E00F44655 /* YCRotaryDraw_masterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCRotaryDraw_masterUITests.m; sourceTree = "<group>"; };
 		745F20441E5FFC2E00F44655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		745F20511E5FFC4D00F44655 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		745F20521E5FFC4D00F44655 /* hander.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hander.png; sourceTree = "<group>"; };
+		745F20531E5FFC4D00F44655 /* prise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prise.png; sourceTree = "<group>"; };
+		745F20541E5FFC4D00F44655 /* zhuanpan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhuanpan.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		745F201C1E5FFC2E00F44655 /* YCRotaryDraw-master */ = {
 			isa = PBXGroup;
 			children = (
+				745F20501E5FFC4D00F44655 /* Images */,
 				745F20201E5FFC2E00F44655 /* AppDelegate.h */,
 				745F20211E5FFC2E00F44655 /* AppDelegate.m */,
 				745F20231E5FFC2E00F44655 /* ViewController.h */,
@@ -138,6 +147,17 @@
 				745F20441E5FFC2E00F44655 /* Info.plist */,
 			);
 			path = "YCRotaryDraw-masterUITests";
+			sourceTree = "<group>";
+		};
+		745F20501E5FFC4D00F44655 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				745F20511E5FFC4D00F44655 /* bg.png */,
+				745F20521E5FFC4D00F44655 /* hander.png */,
+				745F20531E5FFC4D00F44655 /* prise.png */,
+				745F20541E5FFC4D00F44655 /* zhuanpan.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +265,11 @@
 			files = (
 				745F202D1E5FFC2E00F44655 /* LaunchScreen.storyboard in Resources */,
 				745F202A1E5FFC2E00F44655 /* Assets.xcassets in Resources */,
+				745F20561E5FFC4D00F44655 /* hander.png in Resources */,
+				745F20551E5FFC4D00F44655 /* bg.png in Resources */,
+				745F20581E5FFC4D00F44655 /* zhuanpan.png in Resources */,
 				745F20281E5FFC2E00F44655 /* Main.storyboard in Resources */,
+				745F20571E5FFC4D00F44655 /* prise.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
